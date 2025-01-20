@@ -27,8 +27,8 @@ else
 fi
 
 ```
-5. What is $1,$0, $?,$#,$@, $* in shell scripts?
-$1 first positional parameter , $0 is name of script or command that is executed, $? is the exit status of shell script, $# is the count of positional parameters, $@ is the list of positional parameters (list a list in python), $* is where the entire positional parameters as one single string.
+5. What is $1,$0, $?,$#,$@, $(asterisk) in shell scripts?
+$1 first positional parameter , $0 is name of script or command that is executed, $? is the exit status of shell script, $# is the count of positional parameters, $@ is the list of positional parameters (list a list in python), $(asterisk)is where the entire positional parameters as one single string.
 6. How can you determine if a directory is present and echo that the directory is available if not directory is not available?
 To determine if a directory is empty -d parameter.
 
